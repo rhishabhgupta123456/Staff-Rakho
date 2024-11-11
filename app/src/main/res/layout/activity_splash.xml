@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/screenBackground"
+    android:orientation="vertical"
+    tools:context=".SplashActivity">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/staff_rakho"
+        android:fontFamily="@font/subhead_text"
+        android:gravity="center"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:textColor="@color/white"
+        android:singleLine="true"
+        android:textSize="@dimen/_40sdp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_40sdp"
+        android:src="@drawable/logo"/>
+
+
+</LinearLayout>

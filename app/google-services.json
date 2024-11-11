@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "959709068302",
+    "project_id": "staffrakho-6b93e",
+    "storage_bucket": "staffrakho-6b93e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:959709068302:android:a79c538fb99f753f08d05f",
+        "android_client_info": {
+          "package_name": "com.staffrakho"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "959709068302-n4u4ejl0fjhjppgprmvt27dttvkhh61g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.staffrakho",
+            "certificate_hash": "5da0d41308dd24290f0c75e2e0d30b0f45755d56"
+          }
+        },
+        {
+          "client_id": "959709068302-khrn7j6qfmr9fkv8q7d4icbikur5fmdp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbenIwCE6FsIVT4rvzeb2OPjGoLlZGCQs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "959709068302-k4sdc6v6pef69ongsta7oqr03ken8bcl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

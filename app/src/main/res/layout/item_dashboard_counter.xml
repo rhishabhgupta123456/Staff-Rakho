@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_5sdp"
+    android:layout_marginBottom="@dimen/_5sdp"
+    android:layout_marginHorizontal="@dimen/_5sdp"
+    android:layout_weight="1"
+    android:background="@drawable/icon_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/tvLable"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_38sdp"
+        android:fontFamily="@font/subhead_text"
+        android:gravity="center"
+        android:paddingHorizontal="@dimen/_5sdp"
+        android:textColor="@color/blackTextColor"
+        android:textSize="@dimen/_12sdp" />
+
+    <TextView
+        android:id="@+id/tvCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:background="@color/white"
+        android:fontFamily="@font/subhead_text"
+        android:gravity="center"
+        android:textColor="@color/blueTextColor"
+        android:textSize="@dimen/_25sdp" />
+
+</LinearLayout>
+

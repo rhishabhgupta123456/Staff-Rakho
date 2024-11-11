@@ -1,0 +1,371 @@
+<resources>
+    <string name="app_name">Staff Rakho</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="register_account">Haven’t an account? Register</string>
+    <string name="login_account">Have an account? Log in</string>
+    <string name="by_signing_up_you_agree_to_our_term_amp_condition">By Signing up you agree to our term &amp; Condition</string>
+    <string name="successfully">Your account has been created\n successfully.</string>
+    <string name="password_change">Your password has been changed successfully.</string>
+    <string name="jobRegisterText">Let’s Register. Apply to jobs!</string>
+    <string name="jobLogInText">Let’s log in. Apply to jobs!</string>
+    <string name="businessRegisterText">Let’s Register. find the employee!</string>
+    <string name="businessLogInText">Let’s log in. find the employee!</string>
+    <string name="server_error">Server Error!</string>
+    <string name="no_internet">Check  your internet connection</string>
+    <string name="fill_name">Name field can\'t be empty!</string>
+    <string name="fill_email">Email field can\'t be empty!</string>
+    <string name="fill_valid_email">Please enter the valid email</string>
+    <string name="fill_valid_email_phone">Please enter valid email/phone</string>
+    <string name="fill_phone">Phone Number field can\'t be empty!</string>
+    <string name="fill_location">Location field can\'t be empty!</string>
+    <string name="fill_area_practice">Please Select Area of practice</string>
+    <string name="fill_registration_number">Registration Number field can\'t be empty!</string>
+    <string name="fill_about">About field can\'t be empty!</string>
+    <string name="fill_valid_phone">Please enter the valid phone number</string>
+    <string name="select_gender">Please select the gender</string>
+    <string name="select_dob">Please select the Date of Birth</string>
+    <string name="fill_password">Password field can\'t be empty!</string>
+    <string name="password_validation_text">Enter atLeast 1 number, 1 alphabet and 1 special character..</string>
+    <string name="confirm_password_validation_text">Password and confirm password is not match</string>
+    <string name="fill_message">Message field can\'t be empty!</string>
+    <string name="accept_term_condition">"Please accept the terms and condition"</string>
+    <string name="fill_otp">Otp field can\'t be empty!</string>
+    <string name="fill_complete_otp">enter correct OTP</string>
+    <string name="fill_new_password">New Password field can\'t be empty!</string>
+    <string name="fill_confirm_new_password">Confirm New Password field can\'t be empty!</string>
+    <string name="password_not_match">Password can\'t match</string>
+    <string name="otp_Send">Otp Send Successfully</string>
+    <string name="user_type_not_found">User Type Not Found</string>
+    <string name="valid_card_number">Please Enter valid card number</string>
+    <string name="valid_card_type">Please enter details of valid card</string>
+    <string name="valid_expireDate">Please enter valid expiration date</string>
+    <string name="valid_cvv">Please enter valid CVV Code</string>
+    <string name="userType_not_found">We are not found your user type . Please Try Again!</string>
+    <string name="email">Email<font color="#EE1D1D"> *</font></string>
+    <string name="fullName">Full Name<font color="#EE1D1D"> *</font></string>
+    <string name="phone">Phone Number<font color="#EE1D1D"> *</font></string>
+    <string name="companyName">Company / firm /personal name<font color="#EE1D1D"> *</font></string>
+    <string name="password">Password<font color="#EE1D1D"> *</font></string>
+    <string name="confirmPassword">Confirm Password<font color="#EE1D1D"> *</font></string>
+    <string name="date_of_birth">Date of Birth<font color="#EE1D1D"> *</font></string>
+    <string name="gender">Gender<font color="#EE1D1D"> *</font></string>
+    <string name="job_gender">Preferred Gender for the Job<font color="#EE1D1D"> *</font></string>
+    <string name="state">State<font color="#EE1D1D"> *</font></string>
+    <string name="city">City<font color="#EE1D1D"> *</font></string>
+    <string name="address">Full Job Location  <font color="#EE1D1D"> *</font></string>
+    <string name="full_address">Full Address <font color="#EE1D1D"> *</font></string>
+    <string name="zip">Pin Code<font color="#EE1D1D"> *</font></string>
+    <string name="your_Skills">Your Skills<font color="#EE1D1D"> *</font></string>
+    <string name="your_Skills1">Your Skills</string>
+    <string name="skill">Skill<font color="#EE1D1D"> *</font></string>
+    <string name="transport_facility">Transport Facility<font color="#EE1D1D"> *</font></string>
+    <string name="fitness_level">Fitness Level<font color="#EE1D1D"> *</font></string>
+    <string name="fitness_level1">Fitness Level</string>
+    <string name="Transport_Facility_Available_in_your_area">Transport Facility Available in your area<font color="#EE1D1D"> *</font></string>
+    <string name="Transport_Facility_Available_in_your_area1">Transport Facility Available in your area</string>
+    <string name="write_something_about_yourself">Write something about yourself<font color="#EE1D1D"> *</font></string>
+    <string name="write_something_about_yourself1">Write something about yourself</string>
+    <string name="any_disability">Any Disability<font color="#EE1D1D"> *</font></string>
+    <string name="profile_type">Profile Type<font color="#EE1D1D"> *</font></string>
+    <string name="about">About<font color="#EE1D1D"> *</font></string>
+    <string name="name">Name<font color="#EE1D1D"> *</font></string>
+    <string name="relation">Relation<font color="#EE1D1D"> *</font></string>
+    <string name="living_with_you">Currently Living with You?”<font color="#EE1D1D"> *</font></string>
+    <string name="category">Category<font color="#EE1D1D"> *</font></string>
+    <string name="sub_category">Sub Category<font color="#EE1D1D"> *</font></string>
+    <string name="shop_name">Shop/Office/Person Name<font color="#EE1D1D"> *</font></string>
+    <string name="reason_for_leave">Reason For Leave<font color="#EE1D1D"> *</font></string>
+    <string name="roles_amp_responsibilities"><![CDATA[Roles & Responsibilities]]><font color="#EE1D1D"> *</font></string>
+    <string name="from_date">From Date<font color="#EE1D1D"> *</font></string>
+    <string name="sub_district">Sub District<font color="#EE1D1D"> *</font></string>
+    <string name="sub_district1">Sub District</string>
+    <string name="details_of_disability">Details of Disability <font color="#EE1D1D"> *</font></string>
+    <string name="details_of_disability1">Details of Disability</string>
+    <string name="village">Village/Town<font color="#EE1D1D"> *</font></string>
+    <string name="village1">Village/Town</string>
+    <string name="age">Age<font color="#EE1D1D"> *</font></string>
+    <string name="age1">Age</string>
+    <string name="marital_status">Marital Status<font color="#EE1D1D"> *</font></string>
+    <string name="marital_status1">Marital Status</string>
+    <string name="worked">Worked<font color="#EE1D1D"> *</font></string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="to_date">To Date<font color="#EE1D1D"> *</font></string>
+    <string name="company_name">Company Name<font color="#EE1D1D"> *</font></string>
+    <string name="contact_number">Contact Number<font color="#EE1D1D"> *</font></string>
+    <string name="contact_number1">Contact Number</string>
+    <string name="business_type">Business Type<font color="#EE1D1D"> *</font></string>
+    <string name="floor">Floor<font color="#EE1D1D"> *</font></string>
+    <string name="company_look">Office / Store Look<font color="#EE1D1D"> *</font></string>
+    <string name="from_time">From Time<font color="#EE1D1D"> *</font></string>
+    <string name="to_time">To Time<font color="#EE1D1D"> *</font></string>
+    <string name="company_store_name">Company / Firm /Personal Name<font color="#EE1D1D"> *</font></string>
+    <string name="type_of_business">Type of Business<font color="#EE1D1D"> *</font></string>
+    <string name="opening_hours">Opening Hours<font color="#EE1D1D"> *</font></string>
+    <string name="contact_no">Contact No<font color="#EE1D1D"> *</font></string>
+    <string name="opening_days">Opening Days<font color="#EE1D1D"> *</font></string>
+    <string name="number_of_floor">Total Number of Floors of your office/ store<font color="#EE1D1D"> *</font></string>
+    <string name="working_hours_boys">Working Hours Boys</string>
+    <string name="working_hours_girls">Working Hours Girls</string>
+    <string name="title">Name of the Job Position<font color="#EE1D1D"> *</font></string>
+    <string name="description">Job Description</string>
+    <string name="job_type">Job Type<font color="#EE1D1D"> *</font></string>
+    <string name="experience"> Minimum Required Experience<font color="#EE1D1D"> *</font></string>
+    <string name="number_of_vacancy">Number of Vacancy<font color="#EE1D1D"> *</font></string>
+    <string name="status">Job status ( Active /Inactive)<font color="#EE1D1D"> *</font></string>
+    <string name="last_date">Last date to apply</string>
+    <string name="salary">Salary<font color="#EE1D1D"> *</font></string>
+    <string name="yyyy_mm_dd">yyyy-mm-dd</string>
+    <string name="i_need_staff_for_my_business">I Need Staff For My Business.</string>
+    <string name="i_m_looking_for_a_job">I\'m Looking For A Job.</string>
+    <string name="sign_up_as">Sign Up as</string>
+    <string name="welcome">WELCOME!</string>
+    <string name="family_member">Family Members</string>
+    <string name="filters">Filters</string>
+    <string name="job_details">Job Details</string>
+    <string name="save">Save</string>
+    <string name="close">Close</string>
+    <string name="apply">Apply</string>
+    <string name="update">Update</string>
+    <string name="profile_edit">Profile Edit</string>
+    <string name="work_exprience">Work Experience</string>
+    <string name="previous_work_exprience">Previous Work Experience</string>
+    <string name="applied_jobs">Applied Jobs</string>
+    <string name="hh_mm">HH:MM</string>
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="find_perfect_employee">find perfect employee</string>
+    <string name="recent_profile">Recent Profile</string>
+    <string name="find_perfect_job">Find Perfect Job</string>
+    <string name="english">English</string>
+    <string name="hindi">हिन्‍दी</string>
+    <string name="my_profile">My Profile</string>
+    <string name="menu">Menu</string>
+    <string name="about_us">About Us</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_amp_conditions">Terms &amp; Condition </string>
+    <string name="language">Language</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="logout">Logout</string>
+    <string name="title1">Search your job</string>
+    <string name="description1">Figure out your top five priorities whether it is company culture, salary.</string>
+    <string name="title2">Browse jobs list</string>
+    <string name="description2">Our job list include several  industries, so you can find the best job for you.</string>
+    <string name="title3">Search your dream job fast and ease</string>
+    <string name="description3">Figure out your top five priorities — whether it is company culture, salary or a specific job position.</string>
+    <string name="title4">Smart Candidate Matching</string>
+    <string name="description4">Advanced algorithms match candidates with suitable job openings, enhancing recruitment speed and accuracy for employers.</string>
+    <string name="title5">Employee Engagement Surveys</string>
+    <string name="description5">Conduct surveys to gather insights on employee engagement and satisfaction.</string>
+    <string name="title6">Onboarding Workflow Management</string>
+    <string name="description6">Streamlined onboarding processes for new hires, ensuring a smooth transition.</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="register">Register</string>
+    <string name="login">Log in</string>
+    <string name="phone1">Phone Number</string>
+    <string name="password1">Password</string>
+    <string name="log_in">Log in</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="or_continue_with">Or continue with</string>
+    <string name="forgot_password1">Forgot Password</string>
+    <string name="enter_your_phone_number_we_will_send_you_verification_code">Enter your phone number , we will send you verification code</string>
+    <string name="send_code">Send code</string>
+    <string name="verify">Verify</string>
+    <string name="enter_your_verification_code_from_your_phone_that_we_ve_sent">Enter your verification code from your phone that we’ve sent</string>
+    <string name="verify_code">Verify Code</string>
+    <string name="registration">Registration 👍</string>
+    <string name="let_s_register_apply_to_jobs">Let’s Register. Apply to jobs!</string>
+    <string name="full_name">Full Name</string>
+    <string name="e_mail">Email</string>
+    <string name="company_name1">Company / firm /personal name</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="enter_your_new_password_and_confirm_the_new_password_to_reset_password">Enter your new password and confirm the new password to reset password</string>
+    <string name="view_details">View Details</string>
+    <string name="job_description">Job Description</string>
+    <string name="total_experience">Total Experience</string>
+    <string name="job_category">Job Category</string>
+    <string name="total_vacancy">Total Vacancy</string>
+    <string name="position">Position</string>
+    <string name="type">Type</string>
+    <string name="gender1">Gender</string>
+    <string name="state1">State</string>
+    <string name="city1">City</string>
+    <string name="Applied">Applied</string>
+    <string name="Apply">Apply</string>
+    <string name="popular_categories">Popular Categories</string>
+    <string name="recent_jobs">Recent Jobs</string>
+    <string name="your_profile_matching_jobs">Your Profile Matching Jobs</string>
+    <string name="full_name1">Full Name</string>
+    <string name="about1">About</string>
+    <string name="date_of_birth1">Date of Birth</string>
+    <string name="skill1">Skill</string>
+    <string name="transport_facility1">Transport Facility</string>
+    <string name="physically_fit1">Physically Fit</string>
+    <string name="profile_type1">Profile Type</string>
+    <string name="any_disability1">Any Disability</string>
+    <string name="edit">Edit</string>
+    <string name="resume">Resume</string>
+    <string name="resume_update">Resume Update</string>
+    <string name="upload">Upload</string>
+    <string name="choose_file">Choose File</string>
+    <string name="no_file_choosen">No File Chosen</string>
+    <string name="add">+ Add</string>
+    <string name="category1">Category</string>
+    <string name="sub_category1">Sub Category</string>
+    <string name="shop_name1">Shop Name</string>
+    <string name="reason_for_leave1">Reason For Leave</string>
+    <string name="roles_amp_responsibilities1"><![CDATA[Roles & Responsibilities]]></string>
+    <string name="duration">Duration</string>
+    <string name="family_background">Family Background</string>
+    <string name="name1">Name</string>
+    <string name="relation1">Relation</string>
+    <string name="living_with_you1">Living With You</string>
+    <string name="professional">Professional Details</string>
+    <string name="personal">Personal Details</string>
+    <string name="search_jobs">Search Jobs</string>
+    <string name="term_and_condition">Term And Condition</string>
+    <string name="privacy_and_policy">Privacy And Policy</string>
+    <string name="route_not_found">Route Not Found</string>
+    <string name="are_you_sure_you_want_to_delete_your_account">Are you sure want to delete your account?</string>
+    <string name="are_you_sure_you_want_to_logout">Are you sure want to logout?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="message">Message</string>
+    <string name="applicants_list">Applicants List</string>
+    <string name="view_profile">View Profile</string>
+    <string name="jobs_management">Jobs Management</string>
+    <string name="my_jobs">My Jobs</string>
+    <string name="post_job">+ Create New Job Listing</string>
+    <string name="are_you_want_to_delete_this_job">Are you want to delete this job</string>
+    <string name="job_deleted_successfully">Job Deleted Successfully</string>
+    <string name="details">Details</string>
+    <string name="photos">Photos</string>
+    <string name="banner">Logo of your firm /company</string>
+    <string name="interior_photo">Upload your office / Store\'s interior photo</string>
+    <string name="exterior_photo">Upload your office / Store’s exterior photo</string>
+    <string name="search_emplyee">Search Employee</string>
+    <string name="view_resume">View Resume</string>
+    <string name="job_type1">Job Type</string>
+    <string name="opening_hours1">Opening Hours</string>
+    <string name="working_hours_boys1">Working Hours Boys</string>
+    <string name="working_hours_girls1">Working Hours Girls</string>
+    <string name="please_fill_the_company_name">Please fill the company name</string>
+    <string name="please_fill_the_contact_number">Please fill the Contact Number</string>
+    <string name="please_fill_the_address">Please fill the Address</string>
+    <string name="please_select_the_state">Please select the state</string>
+    <string name="please_select_the_city">Please select the city</string>
+    <string name="please_fill_the_zip_code">Please fill the zip code</string>
+    <string name="please_select_the_business_type">Please select the business type</string>
+    <string name="please_select_the_floor">Please select the floor</string>
+    <string name="please_select_the_company_look">Please select the company look</string>
+    <string name="please_fill_the_office_opening_time">Please fill the office opening time</string>
+    <string name="please_fill_the_office_close_time">Please fill the office close time</string>
+    <string name="please_fill_the_office_opening_time_for_boys">Please fill the office opening time for boys</string>
+    <string name="please_fill_the_office_close_time_for_boys">Please fill the office close time for boys</string>
+    <string name="please_fill_the_office_opening_time_for_girls">Please fill the office opening time for girls</string>
+    <string name="please_fill_the_office_close_time_girls">Please fill the office close time girls</string>
+    <string name="fill_the_family_member_name">Fill the family member name</string>
+    <string name="select_the_relation">Select the relation</string>
+    <string name="fill_the_title">Fill the Title</string>
+    <string name="fill_the_description">Fill the Description</string>
+    <string name="fill_the_roles_responsibility"><![CDATA[Fill the Roles & Responsibility]]></string>
+    <string name="select_the_category">Select the Category</string>
+    <string name="select_the_sub_category">Select the Sub Category</string>
+    <string name="fill_the_address">Fill the Address</string>
+    <string name="fill_the_date_of_birth">Fill the date of birth</string>
+    <string name="fill_user_role">Fill the User Role</string>
+    <string name="fill_the_skills">Fill the skills</string>
+    <string name="please_select_transport_facility">Please Select Transport Facility</string>
+    <string name="select_the_physically_fit">Select the physically fit</string>
+    <string name="select_the_disability">Select The Disability</string>
+    <string name="select_the_profile_type">Select The Profile type</string>
+    <string name="fill_the_bio">Fill the Bio</string>
+    <string name="Applicants"> Applicants</string>
+    <string name="inactive">InActive</string>
+    <string name="active">Active</string>
+    <string name="ok">Ok</string>
+    <string name="success">Success!</string>
+    <string name="password_changed">Password Changed!</string>
+    <string name="path_not_found">Path Not Found</string>
+    <string name="View">View</string>
+    <string name="app_desc"><![CDATA[A fully free platform for all the Employers & Jobseeker to Search & Find each other]]></string>
+    <string name="upload_your_store_office_front_view_photo">Upload your store /office front view photo</string>
+    <string name="please_fill_the_office_opening_days">Please fill the office opening days</string>
+    <string name="job_sub_category">Job Sub Category</string>
+    <string name="roles">Roles</string>
+    <string name="company_details">Company Details</string>
+    <string name="company_look1">Company Look</string>
+    <string name="business_type1">Business Type</string>
+    <string name="last_date1">Last Date</string>
+    <string name="total_applicants">Total Applicants</string>
+    <string name="user_profile">User Profile</string>
+    <string name="all_jobs_posted_list">All Jobs Posted List</string>
+    <string name="staff_rakho">Staff Rakho</string>
+    <string name="a_fully_free_platform_for_all_the_employers_amp_jobseeker_to_search_amp_find_each_other">"A completely free platform for all employers and job seekers to search and connect with each other."</string>
+    <string name="hindi_head">"सभी नियोक्ताओं और नौकरी चाहने वालों के लिए एक बिल्कुल मुफ्त मंच, जहाँ वे एक-दूसरे को आसानी से खोज सकते हैं और एक-दूसरे से संपर्क भी कर सकते हैं।"</string>
+    <string name="select_your_field">Select Your Field</string>
+    <string name="head5">मुझे अपने व्यवसाय के लिए कर्मचारियों की जरुरत है |</string>
+    <string name="head6">मैं अपने लिए नौकरी ढूंढ रहा हूँ|</string>
+    <string name="no_record_found">No Record Found</string>
+    <string name="figure_out_your_top_five_priorities_whether_it_is_company_culture_salary">Figure out your top five priorities whether it is company culture, salary.</string>
+    <string name="search_your_job">Search your job</string>
+    <string name="role">Job Role Looking<font color="#EE1D1D"> *</font></string>
+    <string name="role1">Job Role Looking</string>
+    <string name="pin_code">Pin Code<font color="#EE1D1D"> *</font></string>
+    <string name="please_fill_the_pin_code">Please fill the pin code</string>
+    <string name="select_the_job_type">Select The Job Type</string>
+    <string name="minimum_education_required">Minimum Education Required<font color="#EE1D1D"> *</font></string>
+    <string name="skill_required">Skill Required<font color="#EE1D1D"> *</font></string>
+    <string name="fill_the_required_skill">Fill The Required Skill</string>
+    <string name="how_job_seeker_can_apply">How Job Seeker Can Apply<font color="#EE1D1D"> *</font></string>
+    <string name="whatsapp_number">WhatsApp Number</string>
+    <string name="email1">Email</string>
+    <string name="select_the_minimum_required_experience">Select The Minimum required experience</string>
+    <string name="select_the_minimum_required_education">Select The Minimum required education</string>
+    <string name="select_the_job_status">Select The Job Status</string>
+    <string name="select_the_state">Select The State</string>
+    <string name="select_the_city">Select The City</string>
+    <string name="select_the_salary">Select The Salary</string>
+    <string name="pin_code1">Pin Code</string>
+    <string name="education_required">Required Education</string>
+    <string name="contact_details">Contact Details</string>
+    <string name="visited_profile">Visited Profile</string>
+    <string name="shortlist">Short List</string>
+    <string name="already_shortlist">Already Shortlisted</string>
+    <string name="new_profile">New Profile</string>
+    <string name="shortlisted_profile">Shortlisted Profile</string>
+    <string name="are_you_want_to_close_the_app">Are you sure want to close the app ?</string>
+    <string name="account_setting">Account Setting</string>
+    <string name="change_email">Change Email</string>
+    <string name="new_email_address">New Email</string>
+    <string name="email_verify_type_your_code">Verification Code</string>
+    <string name="continue1">CONTINUE</string>
+    <string name="change_mobile_number">Change Phone Number</string>
+    <string name="new_mobile_number">New Phone Number</string>
+    <string name="post_job1">Post Job</string>
+    <string name="applicant_recieve">Applicant Receive</string>
+    <string name="fill_valid_whatsup_phone">Please enter the valid whatsapp number</string>
+    <string name="recently_visited_jobs">Recently Visited Jobs</string>
+    <string name="favourite_liked_jobs">Favourite/Liked Jobs</string>
+    <string name="new_jobs">New Jobs</string>
+    <string name="fill_the_village">Fill the village</string>
+    <string name="fill_the_sub_district">Fill the sub district</string>
+    <string name="please_select_the_age_range">PLease select the age range</string>
+    <string name="please_select_the_marital_status">Please Select The Marital Status</string>
+    <string name="short_term_work">Short term Job</string>
+    <string name="current_job_status">Current Job Status</string>
+    <string name="change_password">Change Password</string>
+    <string name="advance_filter">Advance Filter</string>
+    <string name="salary_range">Salary Range</string>
+    <string name="current_password">Current Password</string>
+    <string name="please_fill_current_password">PLease fill current password</string>
+    <string name="please_fill_new_password">Please fill new password</string>
+    <string name="please_fill_confirm_new_password">Please fill confirm new password</string>
+    <string name="new_password_and_confirm_new_password_is_not_matched">New password and confirm new password is not matched</string>
+    <string name="password_changed_successfully">Password Changed Successfully !!</string>
+
+</resources>

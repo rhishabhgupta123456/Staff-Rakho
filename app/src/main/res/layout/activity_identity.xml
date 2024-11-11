@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/screenBackground"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".activity.IdentityActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:fontFamily="@font/subhead_text"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/staff_rakho"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_30sdp" />
+
+    <ImageView
+        android:layout_width="@dimen/_180sdp"
+        android:layout_height="@dimen/_140sdp"
+        android:layout_marginHorizontal="@dimen/_30sdp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingHorizontal="@dimen/_30sdp"
+        android:text="@string/a_fully_free_platform_for_all_the_employers_amp_jobseeker_to_search_amp_find_each_other"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_12sdp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:gravity="center"
+        android:paddingHorizontal="@dimen/_30sdp"
+        android:text="@string/hindi_head"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_12sdp" />
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/_160sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginVertical="@dimen/_20sdp"
+        app:cardBackgroundColor="@color/greenTextColor"
+        app:cardCornerRadius="@dimen/_50sdp"
+        app:cardElevation="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/greenTextColor"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/_4sdp"
+            android:paddingBottom="@dimen/_3sdp"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/btEnglish"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/subhead_text"
+                android:gravity="center"
+                android:text="English"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12sdp" />
+
+            <View
+                android:layout_width="@dimen/_1sdp"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="@dimen/_3sdp"
+                android:background="@color/black" />
+
+            <TextView
+                android:id="@+id/btHindi"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/subhead_text"
+                android:gravity="center"
+                android:text="हिन्दी"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12sdp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:fontFamily="@font/subhead_text"
+        android:text="@string/welcome"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_30sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/btNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/white_button_identity"
+        android:fontFamily="@font/subhead_text"
+        android:gravity="center"
+        android:paddingHorizontal="@dimen/_80sdp"
+        android:paddingVertical="@dimen/_5sdp"
+        android:text="@string/next"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14ssp" />
+
+
+</LinearLayout>

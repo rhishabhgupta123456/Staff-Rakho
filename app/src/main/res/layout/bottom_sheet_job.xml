@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bottom_white_layout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/btCloseFilter"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_gravity="right"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:src="@drawable/image_cross"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/ViewOrange"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_5sdp"
+            android:layout_gravity="center"
+            android:background="@color/blueTextColor"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageCrossFilter" />
+
+        <TextView
+            android:id="@+id/TextFilters"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:fontFamily="@font/subhead_text"
+            android:text="@string/job_details"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16ssp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ViewOrange" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/normal_text"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:text="@string/title"
+            android:textColor="@color/lightTextColor" />
+
+        <EditText
+            android:id="@+id/etTitle"
+            style="@style/editBoxTextSize"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:background="@drawable/editext_bg"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/_10sdp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/normal_text"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:text="@string/description"
+            android:textColor="@color/lightTextColor" />
+
+        <EditText
+            android:id="@+id/etDescription"
+            style="@style/editBoxTextSize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:background="@drawable/editext_bg"
+            android:gravity="top|left"
+            android:minHeight="@dimen/_80sdp"
+            android:paddingVertical="@dimen/_3sdp"
+            android:paddingLeft="@dimen/_10sdp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/normal_text"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:text="@string/roles_amp_responsibilities"
+            android:textColor="@color/lightTextColor" />
+
+        <EditText
+            android:id="@+id/etRolesResponsibilities"
+            style="@style/editBoxTextSize"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:background="@drawable/editext_bg"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/_10sdp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/normal_text"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:text="@string/category"
+            android:textColor="@color/lightTextColor" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:background="@drawable/editext_bg">
+
+
+            <Spinner
+                android:id="@+id/spinnerCategory"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/_10sdp" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/normal_text"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:text="@string/sub_category"
+            android:textColor="@color/lightTextColor" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:background="@drawable/editext_bg">
+
+
+            <Spinner
+                android:id="@+id/spinnerSubCategory"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/_10sdp" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/normal_text"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:text="@string/job_type"
+            android:textColor="@color/lightTextColor" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:background="@drawable/editext_bg">
+
+
+            <Spinner
+                android:id="@+id/spinnerJobType"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/_10sdp" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/normal_text"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:text="@string/experience"
+            android:textColor="@color/lightTextColor" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:background="@drawable/editext_bg">
+
+
+            <Spinner
+                android:id="@+id/spinnerExperience"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/_10sdp" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/normal_text"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:text="@string/minimum_education_required"
+            android:textColor="@color/lightTextColor" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:background="@drawable/editext_bg">
+
+
+            <Spinner
+                android:id="@+id/spinnerEducation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/_10sdp" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/normal_text"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:text="@string/number_of_vacancy"
+            android:textColor="@color/lightTextColor" />
+
+        <EditText
+            android:id="@+id/etNumberOfVacancy"
+            style="@style/editBoxTextSize"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:background="@drawable/editext_bg"
+            android:gravity="center_vertical"
+            android:inputType="number"
+            android:paddingLeft="@dimen/_10sdp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/normal_text"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:text="@string/skill_required"
+            android:textColor="@color/lightTextColor" />
+
+        <EditText
+            android:id="@+id/etSkillRequired"
+            style="@style/editBoxTextSize"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:background="@drawable/editext_bg"
+            android:gravity="center_vertical"
+            android:inputType="number"
+            android:paddingLeft="@dimen/_10sdp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/normal_text"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:text="@string/how_job_seeker_can_apply"
+            android:textColor="@color/lightTextColor" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_25sdp"
+            android:orientation="horizontal"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:weightSum="2">
+
+
+            <CheckBox
+                android:id="@+id/btCall"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Call"
+                android:textColor="@color/black" />
+
+            <CheckBox
+                android:id="@+id/btMessage"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Message"
+                android:textColor="@color/black" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_25sdp"
+            android:orientation="horizontal"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:weightSum="2">
+
+
+            <CheckBox
+                android:id="@+id/btWhatsApp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="WhatsApp"
+                android:textColor="@color/black" />
+
+            <CheckBox
+                android:id="@+id/btDirectApply"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Direct Apply"
+                android:textColor="@color/black" />
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/normal_text"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:text="@string/phone1"
+            android:textColor="@color/lightTextColor" />
+
+        <EditText
+            android:id="@+id/etPhone"
+            style="@style/editBoxTextSize"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:background="@drawable/editext_bg"
+            android:gravity="center_vertical"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:paddingLeft="@dimen/_10sdp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/normal_text"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:text="@string/email1"
+            android:textColor="@color/lightTextColor" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            style="@style/editBoxTextSize"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:background="@drawable/editext_bg"
+            android:gravity="center_vertical"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="@dimen/_10sdp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/normal_text"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:text="@string/whatsapp_number"
+            android:textColor="@color/lightTextColor" />
+
+        <EditText
+            android:id="@+id/etWhatsAppNumber"
+            style="@style/editBoxTextSize"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:background="@drawable/editext_bg"
+            android:gravity="center_vertical"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:paddingLeft="@dimen/_10sdp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/normal_text"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:text="Prefered Time For Call"
+            android:textColor="@color/lightTextColor" />
+
+
+        <EditText
+            android:id="@+id/etPreferTime"
+            style="@style/editBoxTextSize"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:background="@drawable/editext_bg"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/_10sdp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/normal_text"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:text="@string/job_gender"
+            android:textColor="@color/lightTextColor" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:background="@drawable/editext_bg">
+
+
+            <Spinner
+                android:id="@+id/spinnerGender"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/_10sdp" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/normal_text"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:text="@string/status"
+            android:textColor="@color/lightTextColor" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:background="@drawable/editext_bg">
+
+
+            <Spinner
+                android:id="@+id/spinnerStatus"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/_10sdp" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/normal_text"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:text="@string/last_date"
+            android:textColor="@color/lightTextColor" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:background="@drawable/etbox_bg"
+            android:paddingVertical="@dimen/_2sdp">
+
+            <ImageView
+                android:id="@+id/calenderIcon"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:src="@drawable/calender_icon"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvLastDate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:background="@color/transparent"
+                android:hint="@string/yyyy_mm_dd"
+                android:inputType="date"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/calenderIcon"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="TextViewEdits" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/normal_text"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:text="@string/address"
+            android:textColor="@color/lightTextColor" />
+
+        <EditText
+            android:id="@+id/etAddress"
+            style="@style/editBoxTextSize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:background="@drawable/editext_bg"
+            android:gravity="top|left"
+            android:minHeight="@dimen/_50sdp"
+            android:paddingVertical="@dimen/_3sdp"
+            android:paddingLeft="@dimen/_10sdp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/normal_text"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:text="@string/state"
+            android:textColor="@color/lightTextColor" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:background="@drawable/editext_bg">
+
+            <Spinner
+                android:id="@+id/spinnerState"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/_10sdp" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/normal_text"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:text="@string/city"
+            android:textColor="@color/lightTextColor" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:background="@drawable/editext_bg">
+
+            <Spinner
+                android:id="@+id/spinnerCity"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/_10sdp" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/normal_text"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:text="@string/sub_district"
+            android:textColor="@color/lightTextColor" />
+
+        <EditText
+            android:id="@+id/etSubDistrict"
+            style="@style/editBoxTextSize"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:background="@drawable/editext_bg"
+            android:gravity="center_vertical"
+            android:inputType="number"
+            android:maxLength="6"
+            android:paddingLeft="@dimen/_10sdp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/normal_text"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:text="@string/village"
+            android:textColor="@color/lightTextColor" />
+
+        <EditText
+            android:id="@+id/etVillage"
+            style="@style/editBoxTextSize"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:background="@drawable/editext_bg"
+            android:gravity="center_vertical"
+            android:inputType="number"
+            android:maxLength="6"
+            android:paddingLeft="@dimen/_10sdp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/normal_text"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:text="@string/pin_code"
+            android:textColor="@color/lightTextColor" />
+
+        <EditText
+            android:id="@+id/etPinCode"
+            style="@style/editBoxTextSize"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:background="@drawable/editext_bg"
+            android:gravity="center_vertical"
+            android:inputType="number"
+            android:maxLength="6"
+            android:paddingLeft="@dimen/_10sdp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/normal_text"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:text="@string/profile_type"
+            android:textColor="@color/lightTextColor" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:background="@drawable/editext_bg">
+
+            <Spinner
+                android:id="@+id/spinnerProfileType"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/_10sdp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <CheckBox
+            android:id="@+id/isShotTermJobCheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:gravity="center_vertical"
+            android:paddingHorizontal="@dimen/_10sdp"
+            android:fontFamily="@font/normal_text"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:text="@string/short_term_work"
+            android:textColor="@color/lightTextColor" />
+
+        <TextView
+            android:id="@+id/durationHead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/normal_text"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:text="@string/duration"
+            android:textColor="@color/lightTextColor" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/durationSelectBox"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:background="@drawable/editext_bg">
+
+            <Spinner
+                android:id="@+id/spinnerDuration"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/_10sdp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/normal_text"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:text="@string/salary"
+            android:textColor="@color/lightTextColor" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:background="@drawable/editext_bg">
+
+            <Spinner
+                android:id="@+id/spinnerSalary"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/_10sdp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_25sdp"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/btnApplyFilter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:background="@drawable/btdark_blue_bg"
+                    android:fontFamily="@font/subhead_text"
+                    android:paddingTop="@dimen/_7sdp"
+                    android:paddingBottom="@dimen/_7sdp"
+                    android:text="@string/save"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/constraintAreaofPractice" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/btnClose"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:background="@drawable/btdark_red_bg"
+                    android:fontFamily="@font/subhead_text"
+                    android:paddingTop="@dimen/_7sdp"
+                    android:paddingBottom="@dimen/_7sdp"
+                    android:text="@string/close"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/constraintAreaofPractice" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
+
+

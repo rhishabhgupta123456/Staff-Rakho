@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="pressColor">#C5C5C5</color>
+
+    <color name="transparent">#00FFFFFF</color>
+
+    <color name="screenBackground">#356899</color>
+    <color name="whiteScreenBackground">#FFFFFFFF</color>
+    <color name="trans">#00000000</color>
+
+    <color name="blackTextColor">#FF000000</color>
+    <color name="lightTextColor">#7C7D83</color>
+    <color name="whiteTextColor">#FFFFFFFF</color>
+    <color name="blueTextColor">#356899</color>
+    <color name="greenTextColor">#4CAF50</color>
+    <color name="redTextColor">#FF1100</color>
+
+    <color name="unSelectMenuColor">#CACBCE</color>
+    <color name="selectMenuColor">#356899</color>
+    <color name="line">#22070707</color>
+
+
+    <!--logo color theme-->
+
+    <color name="bgColor1">#40F44336</color>
+    <color name="textColor1">#F44336</color>
+    <color name="bgColor2">#40E91E63</color>
+    <color name="textColor2">#E91E63</color>
+    <color name="bgColor3">#409C27B0</color>
+    <color name="textColor3">#9C27B0</color>
+    <color name="bgColor4">#403F51B5</color>
+    <color name="textColor4">#3F51B5</color>
+    <color name="bgColor5">#402196F3</color>
+    <color name="textColor5">#2196F3</color>
+    <color name="bgColor6">#404CAF50</color>
+    <color name="textColor6">#4CAF50</color>
+    <color name="bgColor7">#40FFEB3B</color>
+    <color name="textColor7">#FFC107</color>
+    <color name="bgColor8">#40FF5722</color>
+    <color name="textColor8">#FF5722</color>
+
+
+</resources>

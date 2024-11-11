@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_270sdp"
+    android:layout_height="@dimen/_230sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="25dp"
+    android:layout_marginTop="@dimen/_10sdp"
+    android:background="@drawable/dialog_box_bg"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:src="@drawable/log_out_vector"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_gravity="center"/>
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/normal_text"
+            android:textAlignment="center"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginStart="@dimen/_30sdp"
+            android:layout_marginEnd="@dimen/_30sdp"
+            android:textSize="@dimen/_13ssp"
+            android:text="@string/are_you_sure_you_want_to_logout"/>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_40sdp"
+            android:layout_marginRight="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_30sdp">
+            <TextView
+                android:id="@+id/yes"
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:textStyle="bold"
+                android:text="@string/yes"
+                android:fontFamily="@font/normal_text"
+                android:gravity="center"
+                android:textSize="@dimen/_13ssp"
+                android:textColor="@color/white"
+                android:background="@drawable/btdark_blue_bg"
+                />
+
+            <TextView
+                android:id="@+id/no"
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:fontFamily="@font/normal_text"
+                android:textColor="@color/white"
+                android:layout_alignParentEnd="true"
+                android:text="@string/no"
+                android:gravity="center"
+                android:textSize="@dimen/_13ssp"
+                android:background="@drawable/btdark_red_bg"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

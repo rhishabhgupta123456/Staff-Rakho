@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/btDateAcc"
+        android:title="Ascending by posted date"
+        tools:ignore="HardcodedText" />
+
+    <item
+        android:id="@+id/btDateDesc"
+        android:title="Descending by posted date" />
+
+    <item
+        android:id="@+id/btSalaryAcc"
+        android:title="Ascending by Salary Range"
+        tools:ignore="HardcodedText" />
+
+    <item
+        android:id="@+id/btSalaryDesc"
+        android:title="Descending by Salary Range" />
+
+</menu>

@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">स्टाफ रखो</string>
+    <string name="hello_blank_fragment">हैलो ब्लैंक फ्रेगमेंट</string>
+    <string name="register_account">कोई खाता नहीं है? पंजीकरण करें</string>
+    <string name="login_account">क्या आपके पास खाता है? लॉग इन करें</string>
+    <string name="by_signing_up_you_agree_to_our_term_amp_condition">साइन अप करके आप हमारी शर्तों और नियमों से सहमत होते हैं</string>
+    <string name="successfully">आपका खाता सफलतापूर्वक बनाया गया है।</string>
+    <string name="password_change">आपका पासवर्ड सफलतापूर्वक बदल दिया गया है।</string>
+    <string name="jobRegisterText"> नौकरी पाने के लिए पंजीकरण करें!</string>
+    <string name="jobLogInText"> नौकरी पाने के लिए लॉग इन करें। </string>
+    <string name="businessRegisterText">कर्मचारी खोजने के लिए पंजीकरण करे !</string>
+    <string name="businessLogInText"> कर्मचारी खोजने के लिए लॉग इन करें।</string>
+    <string name="server_error">सर्वर त्रुटि!</string>
+    <string name="no_internet">कृपया अपना इंटरनेट कनेक्शन जांचें</string>
+    <string name="fill_name">नाम आवश्यक है </string>
+    <string name="fill_email">ईमेल आवश्यक है!</string>
+    <string name="fill_valid_email">कृपया मान्य ईमेल दर्ज करें</string>
+    <string name="fill_valid_email_phone">कृपया मान्य ईमेल/फोन दर्ज करें</string>
+    <string name="fill_phone">फोन नंबर आवश्यक है!</string>
+    <string name="fill_location">स्थान का फ़ील्ड खाली नहीं हो सकता!</string>
+    <string name="fill_area_practice">कृपया अभ्यास का क्षेत्र चुनें</string>
+    <string name="fill_registration_number">पंजीकरण संख्या आवश्यक है  !</string>
+    <string name="fill_about">के बारे में का फ़ील्ड खाली नहीं हो सकता!</string>
+    <string name="fill_valid_phone">मान्य फोन नंबर दर्ज करें</string>
+    <string name="select_gender"> लिंग </string>
+    <string name="select_dob">जन्मतिथि </string>
+    <string name="fill_password">पासवर्ड का फ़ील्ड खाली नहीं हो सकता!</string>
+    <string name="password_validation_text">कम से कम 1 संख्या, 1 अक्षर और 1 विशेष वर्ण दर्ज करें।</string>
+    <string name="confirm_password_validation_text">पासवर्ड और पुष्टि पासवर्ड मेल नहीं खाते</string>
+    <string name="fill_message">संदेश आवश्यक है!</string>
+    <string name="accept_term_condition">शर्तों और नियमों को स्वीकार करें</string>
+    <string name="fill_otp">ओटीपी आवश्यक है  !</string>
+    <string name="fill_complete_otp">सही ओटीपी दर्ज करें</string>
+    <string name="fill_new_password">नया पासवर्ड आवश्यक है !</string>
+    <string name="fill_confirm_new_password">नया पासवर्ड पुष्टि आवश्यक है !</string>
+    <string name="password_not_match">पासवर्ड मेल नहीं खा रहा है</string>
+    <string name="otp_Send">ओटीपी सफलतापूर्वक भेजा गया</string>
+    <string name="user_type_not_found">उपयोगकर्ता प्रकार नहीं मिला</string>
+    <string name="valid_card_number">कृपया मान्य कार्ड नंबर दर्ज करें</string>
+    <string name="valid_card_type">कृपया मान्य कार्ड विवरण दर्ज करें</string>
+    <string name="valid_expireDate">कृपया मान्य समाप्ति तिथि दर्ज करें</string>
+    <string name="valid_cvv">कृपया मान्य सीवीवी कोड दर्ज करें</string>
+    <string name="userType_not_found">हमें आपका उपयोगकर्ता प्रकार नहीं मिला । कृपया पुनः प्रयास करें!</string>
+    <string name="email">ईमेल<font color="#EE1D1D"> *</font></string>
+    <string name="fullName">पूरा नाम<font color="#EE1D1D"> *</font></string>
+    <string name="phone">फोन<font color="#EE1D1D"> *</font></string>
+    <string name="companyName">कंपनी/फर्म/व्यक्तिगत नाम<font color="#EE1D1D"> *</font></string>
+    <string name="password">पासवर्ड<font color="#EE1D1D"> *</font></string>
+    <string name="confirmPassword">पासवर्ड की पुष्टि करें<font color="#EE1D1D"> *</font></string>
+    <string name="date_of_birth">जन्म की तारीख<font color="#EE1D1D"> *</font></string>
+    <string name="gender">लिंग<font color="#EE1D1D"> *</font></string>
+    <string name="state">राज्य<font color="#EE1D1D"> *</font></string>
+    <string name="city">शहर<font color="#EE1D1D"> *</font></string>
+    <string name="address">कार्य स्थान  <font color="#EE1D1D"> *</font></string>
+    <string name="full_address">पूरा पता<font color="#EE1D1D"> *</font></string>
+    <string name="zip">पिन कोड<font color="#EE1D1D"> *</font></string>
+    <string name="your_Skills">आपका कौशल<font color="#EE1D1D"> *</font></string>
+    <string name="your_Skills1">आपका कौशल</string>
+    <string name="skill">कौशल<font color="#EE1D1D"> *</font></string>
+    <string name="transport_facility">परिवहन सुविधा<font color="#EE1D1D"> *</font></string>
+    <string name="fitness_level">फिटनेस स्तर<font color="#EE1D1D"> *</font></string>
+    <string name="fitness_level1">फिटनेस स्तर</string>
+    <string name="Transport_Facility_Available_in_your_area">आपके क्षेत्र में परिवहन सुविधा उपलब्ध है<font color="#EE1D1D"> *</font></string>
+    <string name="Transport_Facility_Available_in_your_area1">आपके क्षेत्र में परिवहन सुविधा उपलब्ध है</string>
+    <string name="write_something_about_yourself">अपने बारे में कुछ लिखें<font color="#EE1D1D"> *</font></string>
+    <string name="write_something_about_yourself1">अपने बारे में कुछ लिखें</string>
+    <string name="any_disability">कोई विकलांगता<font color="#EE1D1D"> *</font></string>
+    <string name="profile_type">प्रोफ़ाइल प्रकार<font color="#EE1D1D"> *</font></string>
+    <string name="about"> बारे में<font color="#EE1D1D"> *</font></string>
+    <string name="name">नाम<font color="#EE1D1D"> *</font></string>
+    <string name="relation">संबंध<font color="#EE1D1D"> *</font></string>
+    <string name="living_with_you">वर्तमान में आपके साथ रह रहे हैं?<font color="#EE1D1D"> *</font></string>
+    <string name="category">श्रेणी<font color="#EE1D1D"> *</font></string>
+    <string name="sub_category">उप श्रेणी<font color="#EE1D1D"> *</font></string>
+    <string name="shop_name">दुकान/कार्यालय/व्यक्ति का नाम<font color="#EE1D1D"> *</font></string>
+    <string name="reason_for_leave">छुट्टी का कारण<font color="#EE1D1D"> *</font></string>
+    <string name="roles_amp_responsibilities"><![CDATA[भूमिकाएँ और जिम्मेदारियाँ]]><font color="#EE1D1D"> *</font></string>
+    <string name="from_date">तारीख से<font color="#EE1D1D"> *</font></string>
+    <string name="to_date">तारीख तक<font color="#EE1D1D"> *</font></string>
+    <string name="company_name">कंपनी का नाम<font color="#EE1D1D"> *</font></string>
+    <string name="contact_number">संपर्क नंबर<font color="#EE1D1D"> *</font></string>
+    <string name="contact_number1">संपर्क नंबर</string>
+    <string name="sub_district">उप जिला<font color="#EE1D1D"> *</font></string>
+    <string name="sub_district1">उप जिला</string>
+    <string name="details_of_disability">विकलांगता का विवरण <font color="#EE1D1D"> *</font></string>
+    <string name="details_of_disability1">विकलांगता का विवरण</string>
+    <string name="village">गाँव<font color="#EE1D1D"> *</font></string>
+    <string name="village1">गाँव</string>
+    <string name="age">आयु<font color="#EE1D1D"> *</font></string>
+    <string name="age1">आयु</string>
+    <string name="marital_status">वैवाहिक स्थिति<font color="#EE1D1D"> *</font></string>
+    <string name="marital_status1">वैवाहिक स्थिति</string>
+    <string name="worked">काम किया<font color="#EE1D1D"> *</font></string>
+    <string name="from">कब से</string>
+    <string name="to">कब तक</string>
+    <string name="business_type">व्यापार प्रकार<font color="#EE1D1D"> *</font></string>
+    <string name="floor">मंजिल<font color="#EE1D1D"> *</font></string>
+    <string name="company_look">ऑफिस/स्टोर लुक<font color="#EE1D1D"> *</font></string>
+    <string name="from_time">समय से<font color="#EE1D1D"> *</font></string>
+    <string name="to_time">समय तक<font color="#EE1D1D"> *</font></string>
+    <string name="company_store_name">कंपनी/फर्म/व्यक्तिगत नाम<font color="#EE1D1D"> *</font></string>
+    <string name="type_of_business">व्यवसाय का प्रकार<font color="#EE1D1D"> *</font></string>
+    <string name="opening_hours">खुलने का समय<font color="#EE1D1D"> *</font></string>
+    <string name="contact_no">संपर्क नंबर<font color="#EE1D1D"> *</font></string>
+    <string name="opening_days">खुलने के दिन<font color="#EE1D1D"> *</font></string>
+    <string name="number_of_floor">आपके कार्यालय/स्टोर की मंजिलों की कुल संख्या<font color="#EE1D1D"> *</font></string>
+    <string name="working_hours_boys">लड़को का कार्य समय </string>
+    <string name="working_hours_girls">लड़कियों का कार्य समय</string>
+    <string name="title">कार्य का नाम पद<font color="#EE1D1D"> *</font></string>
+    <string name="description">कार्य विवरण</string>
+    <string name="job_type">नौकरी का प्रकार<font color="#EE1D1D"> *</font></string>
+    <string name="job_gender">नौकरी के लिए पसंदीदा लिंग<font color="#EE1D1D"> *</font></string>
+    <string name="experience">न्यूनतम आवश्यक अनुभव<font color="#EE1D1D"> *</font></string>
+    <string name="number_of_vacancy">रिक्तियों की संख्या<font color="#EE1D1D"> *</font></string>
+    <string name="last_date">आवेदन करने की अंतिम तिथि</string>
+    <string name="status">कार्य की स्थिति (सक्रिय/निष्क्रिय)<font color="#EE1D1D"> *</font></string>
+    <string name="salary">वेतन<font color="#EE1D1D"> *</font></string>
+    <string name="yyyy_mm_dd">वर्ष-माह-तिथि</string>
+    <string name="i_need_staff_for_my_business">मुझे अपने व्यवसाय के लिए स्टाफ चाहिए।</string>
+    <string name="i_m_looking_for_a_job">मैं नौकरी ढूंढ रहा हूँ।</string>
+    <string name="sign_up_as"> साइन अप करें</string>
+    <string name="welcome">स्वागत है!</string>
+    <string name="family_member">परिवार का सदस्य</string>
+    <string name="filters">फिल्टर</string>
+    <string name="job_details">नौकरी के विवरण</string>
+    <string name="save">सहेजें</string>
+    <string name="close">बंद करें</string>
+    <string name="apply">आवेदन करें</string>
+    <string name="update">अपडेट करें</string>
+    <string name="profile_edit">प्रोफ़ाइल संपादित करें</string>
+    <string name="work_exprience">कार्य अनुभव</string>
+    <string name="previous_work_exprience">पिछला कार्य अनुभव</string>
+    <string name="applied_jobs">आवेदन की गई नौकरियां</string>
+    <string name="hh_mm">घंटे:मिनट</string>
+    <string name="welcome_back">स्वागत है!</string>
+    <string name="find_perfect_employee">संपूर्ण कर्मचारी ढूंढें</string>
+    <string name="recent_profile">हाल ही की प्रोफ़ाइल</string>
+    <string name="find_perfect_job">संपूर्ण नौकरी ढूंढें</string>
+    <string name="english" >English</string>
+    <string name="hindi">हिन्‍दी</string>
+    <string name="my_profile">मेरी प्रोफ़ाइल</string>
+    <string name="menu">मेन्यू</string>
+    <string name="about_us">हमारे बारे में</string>
+    <string name="contact_us">हमसे संपर्क करें</string>
+    <string name="privacy_policy">गोपनीयता नीति</string>
+    <string name="terms_amp_conditions">नियम और शर्तें</string>
+    <string name="language">भाषा</string>
+    <string name="delete_account">खाता हटाएं</string>
+    <string name="logout">लॉग आउट</string>
+    <string name="title1">अपनी नौकरी खोजें</string>
+    <string name="description1">यह पता करें कि आपकी शीर्ष पांच प्राथमिकताएँ क्या हैं, चाहे वह कंपनी की संस्कृति हो, वेतन हो।</string>
+    <string name="title2">नौकरी सूची ब्राउज़ करें</string>
+    <string name="description2">हमारी नौकरी सूची में कई उद्योग शामिल हैं, इसलिए आप अपने लिए सबसे अच्छी नौकरी पा सकते हैं।</string>
+    <string name="title3">अपनी सपनों की नौकरी तेजी और आसानी से खोजें</string>
+    <string name="description3">अपनी शीर्ष पांच प्राथमिकताओं का पता लगाएं - चाहे वह कंपनी की संस्कृति हो, वेतन हो या एक विशिष्ट नौकरी की स्थिति हो।</string>
+    <string name="title4">स्मार्ट उम्मीदवार मिलान</string>
+    <string name="description4">उन्नत एल्गोरिदम उम्मीदवारों को उपयुक्त नौकरी के अवसरों के साथ मिलाते हैं, जिससे नियोक्ताओं के लिए भर्ती की गति और सटीकता बढ़ती है।</string>
+    <string name="title5">कर्मचारी संलग्नता सर्वेक्षण</string>
+    <string name="description5">कर्मचारी संलग्नता और संतुष्टि पर अंतर्दृष्टि प्राप्त करने के लिए सर्वेक्षण करें।</string>
+    <string name="title6">ऑनबोर्डिंग वर्कफ़्लो प्रबंधन</string>
+    <string name="description6">नए कर्मचारियों के लिए सुव्यवस्थित ऑनबोर्डिंग प्रक्रियाएं, जिससे एक सहज संक्रमण सुनिश्चित होता है।</string>
+    <string name="skip">छोड़ें</string>
+    <string name="next">अगला</string>
+    <string name="register">पंजीकरण करें</string>
+    <string name="login">लॉग इन करें</string>
+    <string name="phone1">फ़ोन</string>
+    <string name="password1">पासवर्ड</string>
+    <string name="log_in">लॉग इन करें</string>
+    <string name="forgot_password">पासवर्ड भूल गए?</string>
+    <string name="or_continue_with">जारी रखें</string>
+    <string name="forgot_password1">पासवर्ड भूल गए</string>
+    <string name="enter_your_phone_number_we_will_send_you_verification_code">अपना फ़ोन नंबर दर्ज करें, हम आपको सत्यापन कोड भेजेंगे</string>
+    <string name="send_code">कोड भेजें</string>
+    <string name="verify">सत्यापित करें</string>
+    <string name="enter_your_verification_code_from_your_phone_that_we_ve_sent">अपने फ़ोन से वह सत्यापन कोड दर्ज करें जो हमने भेजा है</string>
+    <string name="verify_code">सत्यापन कोड</string>
+    <string name="registration">पंजीकरण 👍</string>
+    <string name="let_s_register_apply_to_jobs">नौकरी आवेदन करने के लिए पंजीकरण करे!</string>
+    <string name="full_name">पूरा नाम</string>
+    <string name="e_mail">ई-मेल</string>
+    <string name="company_name1">कंपनी/फर्म/व्यक्तिगत नाम</string>
+    <string name="male">पुरुष</string>
+    <string name="female">महिला</string>
+    <string name="confirm_password">पासवर्ड की पुष्टि करें</string>
+    <string name="reset_password">पासवर्ड रीसेट करें</string>
+    <string name="enter_your_new_password_and_confirm_the_new_password_to_reset_password">पासवर्ड रीसेट करने के लिए अपना नया पासवर्ड दर्ज करें और पासवर्ड की पुष्टि करें</string>
+    <string name="view_details">विवरण देखें</string>
+    <string name="job_description">नौकरी विवरण</string>
+    <string name="total_experience">कुल अनुभव</string>
+    <string name="job_category">नौकरी श्रेणी</string>
+    <string name="total_vacancy">कुल रिक्तियाँ </string>
+    <string name="position">पद</string>
+    <string name="type">प्रकार</string>
+    <string name="gender1">लिंग</string>
+    <string name="state1">राज्य</string>
+    <string name="city1">शहर</string>
+    <string name="Applied">लागू किया गया</string>
+    <string name="Apply">लागू करें</string>
+    <string name="popular_categories">लोकप्रिय श्रेणियाँ</string>
+    <string name="recent_jobs">हाल की नौकरियाँ</string>
+    <string name="your_profile_matching_jobs">आपकी प्रोफ़ाइल से मेल खाने वाली नौकरियां</string>
+    <string name="full_name1">पूरा नाम</string>
+    <string name="about1">के बारे में</string>
+    <string name="date_of_birth1">जन्म तिथि</string>
+    <string name="skill1">कौशल</string>
+    <string name="transport_facility1">परिवहन सुविधा</string>
+    <string name="physically_fit1">शारीरिक रूप से फिट</string>
+    <string name="profile_type1">प्रोफाइल प्रकार</string>
+    <string name="any_disability1">कोई विकलांगता</string>
+    <string name="edit">संपादित करें</string>
+    <string name="resume">रिज्यूम</string>
+    <string name="resume_update">रिज्यूम अपडेट</string>
+    <string name="upload">अपलोड करें</string>
+    <string name="choose_file">फाइल चुनें</string>
+    <string name="no_file_choosen">कोई फाइल नहीं चुनी गई</string>
+    <string name="add">+ जोड़ें</string>
+    <string name="category1">श्रेणी</string>
+    <string name="sub_category1">उप श्रेणी</string>
+    <string name="shop_name1">दुकान का नाम</string>
+    <string name="reason_for_leave1">छुट्टी का कारण</string>
+    <string name="roles_amp_responsibilities1"><![CDATA[भूमिकाएँ और जिम्मेदारियाँ]]></string>
+    <string name="duration">अवधि</string>
+    <string name="family_background">परिवार के सदस्य</string>
+    <string name="name1">नाम</string>
+    <string name="relation1">संबंध </string>
+    <string name="living_with_you1">वर्तमान में आपके साथ रह रहे हैं</string>
+    <string name="professional">व्यावसायिक</string>
+    <string name="personal">व्यक्तिगत</string>
+    <string name="search_jobs">नौकरियाँ खोजें</string>
+    <string name="term_and_condition">नियम और शर्तें</string>
+    <string name="privacy_and_policy">गोपनीयता और नीति</string>
+    <string name="route_not_found">मार्ग नहीं मिला</string>
+    <string name="are_you_sure_you_want_to_delete_your_account">क्या आप वाकई अपना खाता हटाना चाहते हैं?</string>
+    <string name="are_you_sure_you_want_to_logout">क्या आप वाकई लॉगआउट करना चाहते हैं?</string>
+    <string name="yes">हाँ</string>
+    <string name="no">नहीं</string>
+    <string name="message">संदेश</string>
+    <string name="applicants_list">आवेदकों की सूची</string>
+    <string name="view_profile">प्रोफ़ाइल देखें</string>
+    <string name="jobs_management">नौकरी प्रबंधन</string>
+    <string name="my_jobs">मेरी नौकरियां</string>
+    <string name="post_job">+ नई नौकरी सूची बनाएंं</string>
+    <string name="are_you_want_to_delete_this_job">क्या आप इस नौकरी को हटाना चाहते हैं?</string>
+    <string name="job_deleted_successfully">नौकरी सफलतापूर्वक हटाई गई</string>
+    <string name="details">विवरण</string>
+    <string name="photos">फोटो</string>
+    <string name="banner">आपकी फर्म/कंपनी का लोगो</string>
+    <string name="interior_photo">अपने कार्यालय/स्टोर की आंतरिक फ़ोटो अपलोड करें</string>
+    <string name="exterior_photo">अपने कार्यालय/स्टोर की बाहरी फ़ोटो अपलोड करें</string>
+    <string name="search_emplyee">कर्मचारी खोजें</string>
+    <string name="view_resume">रिज्यूमे देखें</string>
+    <string name="job_type1">नौकरी का प्रकार</string>
+    <string name="opening_hours1">खुलने का समय</string>
+    <string name="working_hours_boys1">लड़कों के लिए कार्य समय</string>
+    <string name="working_hours_girls1">लड़कियों के लिए कार्य समय</string>
+    <string name="please_fill_the_company_name">कंपनी का नाम </string>
+    <string name="please_fill_the_contact_number">संपर्क नंबर </string>
+    <string name="please_fill_the_address"> पता </string>
+    <string name="please_select_the_state"> राज्य </string>
+    <string name="please_select_the_city"> शहर </string>
+    <string name="please_fill_the_zip_code">ज़िप कोड </string>
+    <string name="please_select_the_business_type"> व्यवसाय प्रकार </string>
+    <string name="please_select_the_floor"> मंजिल </string>
+    <string name="please_select_the_company_look"> कंपनी की उपस्थिति </string>
+    <string name="please_fill_the_office_opening_time">कार्यालय खुलने का समय </string>
+    <string name="please_fill_the_office_close_time"> कार्यालय बंद होने का समय </string>
+    <string name="please_fill_the_office_opening_time_for_boys"> लड़कों के लिए कार्यालय खुलने का समय</string>
+    <string name="please_fill_the_office_close_time_for_boys">लड़कों के लिए कार्यालय बंद होने का समय </string>
+    <string name="please_fill_the_office_opening_time_for_girls"> लड़कियों के लिए कार्यालय खुलने का समय </string>
+    <string name="please_fill_the_office_close_time_girls">लड़कियों के लिए कार्यालय बंद होने का समय </string>
+    <string name="fill_the_family_member_name">परिवार के सदस्य का नाम भरें</string>
+    <string name="select_the_relation">संबंध </string>
+    <string name="fill_the_title">शीर्षक भरें</string>
+    <string name="fill_the_description">विवरण भरें</string>
+    <string name="fill_the_roles_responsibility"><![CDATA[भूमिका और जिम्मेदारी भरें]]></string>
+    <string name="select_the_category">श्रेणी चुनें</string>
+    <string name="select_the_sub_category">उपश्रेणी चुनें</string>
+    <string name="fill_the_address">पता भरें</string>
+    <string name="fill_the_date_of_birth">जन्म तिथि </string>
+    <string name="fill_user_role">उपयोगकर्ता की भूमिका</string>
+    <string name="fill_the_skills">कौशल भरें</string>
+    <string name="please_select_transport_facility">कृपया परिवहन सुविधा </string>
+    <string name="select_the_physically_fit">शारीरिक रूप से फिट चुनें</string>
+    <string name="select_the_disability">विकलांगता चुनें</string>
+    <string name="select_the_profile_type">प्रोफ़ाइल प्रकार चुनें</string>
+    <string name="fill_the_bio">जीवनी भरें</string>
+    <string name="Applicants">आवेदक</string>
+    <string name="inactive">निष्क्रिय</string>
+    <string name="active">सक्रिय</string>
+    <string name="ok">ठीक</string>
+    <string name="success">सफलता!</string>
+    <string name="password_changed">पासवर्ड बदला गया!</string>
+    <string name="path_not_found">पथ नहीं मिला</string>
+    <string name="View">देखें</string>
+    <string name="app_desc"><![CDATA[सभी नियोक्ताओं और नौकरी चाहने वालों के लिए एक पूरी तरह से मुफ्त मंच, जहां वे एक-दूसरे को खोज और पा सकते हैं]]></string>
+    <string name="upload_your_store_office_front_view_photo">अपने स्टोर/ऑफिस के सामने का दृश्य फोटो अपलोड करें</string>
+    <string name="please_fill_the_office_opening_days"> कार्यालय के खुलने के दिन </string>
+    <string name="job_sub_category">नौकरी का उप श्रेणी</string>
+    <string name="roles">भूमिकाएँ</string>
+    <string name="company_details">कंपनी विवरण</string>
+    <string name="company_look1">कंपनी की झलक</string>
+    <string name="business_type1">व्यापार प्रकार</string>
+    <string name="last_date1">अंतिम तिथि</string>
+    <string name="total_applicants">कुल आवेदक</string>
+    <string name="user_profile">उपयोगकर्ता प्रोफ़ाइल</string>
+    <string name="all_jobs_posted_list">सभी पोस्ट की गई नौकरिया</string>
+    <string name="staff_rakho">Staff Rakho</string>
+    <string name="a_fully_free_platform_for_all_the_employers_amp_jobseeker_to_search_amp_find_each_other">"A completely free platform for all employers and job seekers to search and connect with each other."</string>
+    <string name="hindi_head">"सभी नियोक्ताओं और नौकरी चाहने वालों के लिए एक बिल्कुल मुफ्त मंच, जहाँ वे एक-दूसरे को आसानी से खोज सकते हैं और एक-दूसरे से संपर्क भी कर सकते हैं।"</string>
+    <string name="select_your_field">अपना फील्ड चुने </string>
+    <string name="head5">मुझे अपने व्यवसाय के लिए कर्मचारियों की जरुरत है |</string>
+    <string name="head6">मैं अपने लिए नौकरी ढूंढ रहा हूँ|</string>
+    <string name="no_record_found">कोई रिकॉर्ड नहीं मिला</string>
+    <string name="figure_out_your_top_five_priorities_whether_it_is_company_culture_salary">अपनी शीर्ष पाँच प्राथमिकताओं का पता लगाएं, चाहे वह कंपनी संस्कृति हो या वेतन।</string>
+    <string name="search_your_job">अपनी नौकरी खोजें</string>
+    <string name="role">उपयोगकर्ता भूमिका<font color="#EE1D1D"> *</font></string>
+    <string name="role1">उपयोगकर्ता भूमिका</string>
+    <string name="pin_code">पिन कोड<font color="#EE1D1D"> *</font></string>
+    <string name="please_fill_the_pin_code"> पिन कोड </string>
+    <string name="select_the_job_type">नौकरी का प्रकार चुनें</string>
+    <string name="minimum_education_required">न्यूनतम शिक्षा आवश्यक<font color="#EE1D1D"> *</font></string>
+    <string name="skill_required">आवश्यक कौशल <font color="#EE1D1D"> *</font></string>
+    <string name="fill_the_required_skill">आवश्यक कौशल भरें</string>
+    <string name="how_job_seeker_can_apply">नौकरी आवेदक कैसे आवेदन कर सकते हैं<font color="#EE1D1D"> *</font></string>
+    <string name="whatsapp_number">व्हाट्सएप नंबर</string>
+    <string name="email1">ईमेल</string>
+    <string name="select_the_minimum_required_experience">न्यूनतम आवश्यक अनुभव </string>
+    <string name="select_the_minimum_required_education">न्यूनतम आवश्यक शिक्षा </string>
+    <string name="select_the_job_status">नौकरी की स्थिति</string>
+    <string name="select_the_state">राज्य </string>
+    <string name="select_the_city">शहर </string>
+    <string name="select_the_salary">वेतन </string>
+    <string name="pin_code1">पिन कोड</string>
+    <string name="education_required">आवश्यक शिक्षा</string>
+    <string name="contact_details">संपर्क विवरण</string>
+    <string name="visited_profile">देखी गई प्रोफ़ाइल</string>
+    <string name="shortlist">शॉर्टलिस्ट</string>
+    <string name="already_shortlist">पहले से शॉर्टलिस्ट किया हुआ</string>
+    <string name="new_profile">नई प्रोफ़ाइल</string>
+    <string name="shortlisted_profile">शॉर्टलिस्ट की गई प्रोफ़ाइल</string>
+    <string name="are_you_want_to_close_the_app">क्या आप वाकई ऐप बंद करना चाहते हैं?</string>
+    <string name="account_setting">खाता सेटिंग</string>
+    <string name="change_email">ईमेल बदलें</string>
+    <string name="new_email_address">नया ईमेल पता</string>
+    <string name="email_verify_type_your_code">सत्यापन कोड</string>
+    <string name="continue1">जारी रखें</string>
+    <string name="change_mobile_number">फोन नंबर बदलें</string>
+    <string name="new_mobile_number">नया फोन नंबर</string>
+    <string name="post_job1">नौकरी पोस्ट करें</string>
+    <string name="applicant_recieve">आवेदन प्राप्त हुआ</string>
+    <string name="fill_valid_whatsup_phone">कृपया मान्य व्हाट्सएप नंबर दर्ज करें</string>
+    <string name="recently_visited_jobs">हाल ही में देखे गए नौकरियां</string>
+    <string name="favourite_liked_jobs">पसंदीदा/लाइक की गई नौकरियां</string>
+    <string name="new_jobs">नई नौकरियां</string>
+    <string name="fill_the_village">गांव भरें</string>
+    <string name="fill_the_sub_district">उप जिला भरें</string>
+    <string name="please_select_the_age_range">कृपया आयु सीमा का चयन करें</string>
+    <string name="please_select_the_marital_status">कृपया वैवाहिक स्थिति का चयन करें</string>
+
+</resources>

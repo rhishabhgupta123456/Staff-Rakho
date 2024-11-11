@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bottom_white_layout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/btCloseFilter"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_gravity="right"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:src="@drawable/image_cross"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/ViewOrange"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_5sdp"
+            android:layout_gravity="center"
+            android:background="@color/blueTextColor"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageCrossFilter" />
+
+        <TextView
+            android:id="@+id/TextFilters"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:fontFamily="@font/subhead_text"
+            android:text="@string/profile_edit"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16ssp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ViewOrange" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/normal_text"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:text="@string/company_name1"
+            android:textColor="@color/lightTextColor" />
+
+        <EditText
+            android:id="@+id/etCompanyName"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            style="@style/editBoxTextSize"
+            android:background="@drawable/editext_bg"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/_10sdp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/normal_text"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:text="@string/contact_number1"
+            android:textColor="@color/lightTextColor" />
+
+        <TextView
+            android:id="@+id/etContactNumber"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:background="@drawable/editext_bg"
+            style="@style/editBoxTextSize"
+            android:gravity="center_vertical"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:paddingLeft="@dimen/_10sdp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/normal_text"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:text="@string/full_address"
+            android:textColor="@color/lightTextColor" />
+
+        <EditText
+            android:id="@+id/etAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/_50sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            style="@style/editBoxTextSize"
+            android:gravity="top"
+            android:paddingVertical="@dimen/_2sdp"
+            android:background="@drawable/editext_bg"
+            android:paddingLeft="@dimen/_10sdp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/normal_text"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:text="@string/state"
+            android:textColor="@color/lightTextColor" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:background="@drawable/editext_bg">
+
+            <Spinner
+                android:id="@+id/spinnerState"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/_10sdp" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/normal_text"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:text="@string/city"
+            android:textColor="@color/lightTextColor" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:background="@drawable/editext_bg">
+
+            <Spinner
+                android:id="@+id/spinnerCity"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/_10sdp" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/normal_text"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:text="@string/zip"
+            android:textColor="@color/lightTextColor" />
+
+        <EditText
+            android:id="@+id/etZip"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:background="@drawable/editext_bg"
+            android:gravity="center_vertical"
+            android:inputType="number"
+            style="@style/editBoxTextSize"
+            android:maxLength="6"
+            android:paddingLeft="@dimen/_10sdp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/normal_text"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:text="@string/type_of_business"
+            android:textColor="@color/lightTextColor" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:background="@drawable/editext_bg">
+
+            <Spinner
+                android:id="@+id/spinnerBusinessType"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/_10sdp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/normal_text"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:text="@string/number_of_floor"
+            android:textColor="@color/lightTextColor" />
+
+        <EditText
+            android:id="@+id/etFloor"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:background="@drawable/editext_bg"
+            style="@style/editBoxTextSize"
+            android:gravity="center_vertical"
+            android:inputType="number"
+            android:maxLength="6"
+            android:paddingLeft="@dimen/_10sdp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/normal_text"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:text="@string/company_look"
+            android:textColor="@color/lightTextColor" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:background="@drawable/editext_bg">
+
+            <Spinner
+                android:id="@+id/spinnerCompanyLook"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/_10sdp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/normal_text"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:text="@string/opening_days"
+            android:textColor="@color/lightTextColor" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:weightSum="4">
+
+            <CheckBox
+                android:id="@+id/btDaySun"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="SUN"
+                android:textColor="@color/blackTextColor"
+                android:textSize="@dimen/_12sdp" />
+
+            <CheckBox
+                android:id="@+id/btDayMon"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="MON"
+                android:textColor="@color/blackTextColor"
+                android:textSize="@dimen/_12sdp" />
+
+            <CheckBox
+                android:id="@+id/btDayTue"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="TUE"
+                android:textColor="@color/blackTextColor"
+                android:textSize="@dimen/_12sdp" />
+
+            <CheckBox
+                android:id="@+id/btDayWed"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="WED"
+                android:textColor="@color/blackTextColor"
+                android:textSize="@dimen/_12sdp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:weightSum="4">
+
+            <CheckBox
+                android:id="@+id/btDayThu"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="THU"
+                android:textColor="@color/blackTextColor"
+                android:textSize="@dimen/_12sdp" />
+
+            <CheckBox
+                android:id="@+id/btDayFri"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="FRI"
+                android:textColor="@color/blackTextColor"
+                android:textSize="@dimen/_12sdp" />
+
+            <CheckBox
+                android:id="@+id/btDaySat"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="SAT"
+                android:textColor="@color/blackTextColor"
+                android:textSize="@dimen/_12sdp" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/normal_text"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:text="@string/opening_hours1"
+            android:textColor="@color/screenBackground" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/normal_text"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:text="@string/from_time"
+            android:textColor="@color/lightTextColor" />
+
+        <TextView
+            android:id="@+id/etFromTime"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            style="@style/editBoxTextSize"
+            android:background="@drawable/editext_bg"
+            android:gravity="center_vertical"
+            android:hint="@string/hh_mm"
+            android:paddingLeft="@dimen/_10sdp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/normal_text"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:text="@string/to_time"
+            android:textColor="@color/lightTextColor" />
+
+        <TextView
+            android:id="@+id/etToTime"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            style="@style/editBoxTextSize"
+            android:background="@drawable/editext_bg"
+            android:gravity="center_vertical"
+            android:hint="@string/hh_mm"
+            android:paddingLeft="@dimen/_10sdp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/normal_text"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:text="@string/working_hours_boys1"
+            android:textColor="@color/screenBackground" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/normal_text"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:text="@string/from_time"
+            android:textColor="@color/lightTextColor" />
+
+        <TextView
+            android:id="@+id/etFromTimeBoys"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:background="@drawable/editext_bg"
+            style="@style/editBoxTextSize"
+            android:gravity="center_vertical"
+            android:hint="@string/hh_mm"
+            android:paddingLeft="@dimen/_10sdp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/normal_text"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:text="@string/to_time"
+            android:textColor="@color/lightTextColor" />
+
+        <TextView
+            android:id="@+id/etToTimeBoys"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            style="@style/editBoxTextSize"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:background="@drawable/editext_bg"
+            android:gravity="center_vertical"
+            android:hint="@string/hh_mm"
+            android:paddingLeft="@dimen/_10sdp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/normal_text"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:text="@string/working_hours_girls1"
+            android:textColor="@color/screenBackground" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/normal_text"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:text="@string/from_time"
+            android:textColor="@color/lightTextColor" />
+
+
+        <TextView
+            android:id="@+id/etFromTimeGirls"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            style="@style/editBoxTextSize"
+            android:background="@drawable/editext_bg"
+            android:gravity="center_vertical"
+            android:hint="@string/hh_mm"
+            android:paddingLeft="@dimen/_10sdp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/normal_text"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:text="@string/to_time"
+            android:textColor="@color/lightTextColor" />
+
+        <TextView
+            android:id="@+id/etToTimeGirls"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:background="@drawable/editext_bg"
+            style="@style/editBoxTextSize"
+            android:gravity="center_vertical"
+            android:hint="@string/hh_mm"
+            android:paddingLeft="@dimen/_10sdp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_25sdp"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/btnApplyFilter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:background="@drawable/btdark_blue_bg"
+                    android:fontFamily="@font/subhead_text"
+                    android:paddingTop="@dimen/_7sdp"
+                    android:paddingBottom="@dimen/_7sdp"
+                    android:text="@string/save"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/constraintAreaofPractice" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/btnClose"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:background="@drawable/btdark_red_bg"
+                    android:fontFamily="@font/subhead_text"
+                    android:paddingTop="@dimen/_7sdp"
+                    android:paddingBottom="@dimen/_7sdp"
+                    android:text="@string/close"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/constraintAreaofPractice" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
+
+

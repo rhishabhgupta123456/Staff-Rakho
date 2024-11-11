@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/auth_nav"
+    app:startDestination="@id/signInScreen">
+
+    <!--  Registration Screen  -->
+    <fragment
+        android:id="@+id/registrationScreen"
+        android:name="com.staffrakho.fragment.authScreens.RegisterFragment"
+        android:label="Registration Page"
+        tools:layout="@layout/fragment_register">
+
+        <action
+            android:id="@+id/openSignInScreen"
+            app:destination="@id/signInScreen" />
+
+        <action
+            android:id="@+id/openOtpVerificationScreen"
+            app:destination="@id/otpVerificationScreen" />
+
+    </fragment>
+
+    <!--  Sign In Screen  -->
+    <fragment
+        android:id="@+id/signInScreen"
+        android:name="com.staffrakho.fragment.authScreens.SignInFragment"
+        android:label="Sign In Screen"
+        tools:layout="@layout/fragment_sign_in">
+
+        <action
+            android:id="@+id/openRegistrationScreen"
+            app:destination="@id/registrationScreen" />
+
+        <action
+            android:id="@+id/openForgetPasswordScreen"
+            app:destination="@id/forgetPasswordScreen" />
+
+
+    </fragment>
+
+    <!--  Forget Password Screen  -->
+    <fragment
+        android:id="@+id/forgetPasswordScreen"
+        android:name="com.staffrakho.fragment.authScreens.ForgetPasswordFragment"
+        android:label="Forget Password Screen"
+        tools:layout="@layout/fragment_forget_password">
+
+        <action
+            android:id="@+id/openSignInScreen"
+            app:destination="@id/signInScreen" />
+
+        <action
+            android:id="@+id/openOtpVerificationScreen"
+            app:destination="@id/otpVerificationScreen" />
+
+    </fragment>
+
+    <!--  Otp Verification Screen  -->
+    <fragment
+        android:id="@+id/otpVerificationScreen"
+        android:name="com.staffrakho.fragment.authScreens.OtpVerificationScreen"
+        android:label="OTP Verification Screen"
+        tools:layout="@layout/fragment_otp_verification_screen">
+
+        <action
+            android:id="@+id/openForgetPasswordScreen"
+            app:destination="@id/forgetPasswordScreen" />
+
+        <action
+            android:id="@+id/openRegistrationScreen"
+            app:destination="@id/registrationScreen" />
+
+        <action
+            android:id="@+id/openResetPassword"
+            app:destination="@id/resetPasswordScreen" />
+
+
+
+    </fragment>
+
+    <!--  Reset Password Screen  -->
+    <fragment
+        android:id="@+id/resetPasswordScreen"
+        android:name="com.staffrakho.fragment.authScreens.ResetPasswordScreen"
+        android:label="Reset Password Screen"
+        tools:layout="@layout/fragment_reset_password_screen">
+
+        <action
+            android:id="@+id/openForgetPasswordScreen"
+            app:destination="@id/forgetPasswordScreen" />
+
+        <action
+            android:id="@+id/openSignInScreen"
+            app:destination="@id/signInScreen" />
+
+    </fragment>
+
+</navigation>

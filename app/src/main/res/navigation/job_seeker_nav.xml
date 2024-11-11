@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/job_seeker_nav"
+    app:startDestination="@id/HomeScreen">
+
+    <fragment
+        android:id="@+id/HomeScreen"
+        android:name="com.staffrakho.fragment.jobScreen.JobHomeFragment"
+        android:label="Home Screen"
+        tools:layout="@layout/fragment_job_home">
+
+        <action
+            android:id="@+id/openJobDetailsScreen"
+            app:destination="@id/jobDetailsScreen" />
+
+        <action
+            android:id="@+id/openSearchJobScreen"
+            app:destination="@id/searchJobScreen" />
+
+        <action
+            android:id="@+id/openProfileScreen"
+            app:destination="@id/profileScreen" />
+
+        <action
+            android:id="@+id/openAppliedJobScreen"
+            app:destination="@id/appliedJobScreen" />
+
+
+        <action
+            android:id="@+id/openRecentJobsFragment"
+            app:destination="@id/recentJobsFragment" />
+
+        <action
+            android:id="@+id/openNewJobsFragment"
+            app:destination="@id/newJobsFragment" />
+
+
+        <action
+            android:id="@+id/openFavouriteFragment"
+            app:destination="@id/favouriteFragment" />
+
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/appliedJobScreen"
+        android:name="com.staffrakho.fragment.jobScreen.AppliedJobFragment"
+        android:label="Applied Job Screen"
+        tools:layout="@layout/fragment_applied_job">
+
+        <action
+            android:id="@+id/openHomeScreen"
+            app:destination="@id/HomeScreen" />
+
+        <action
+            android:id="@+id/openJobDetailsScreen"
+            app:destination="@id/jobDetailsScreen" />
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/messageScreen"
+        android:name="com.staffrakho.fragment.commonScreen.MessageInboxFragment"
+        android:label="Message Screen"
+        tools:layout="@layout/fragment_message_inbox">
+        <action
+            android:id="@+id/openHomeScreen"
+            app:destination="@id/HomeScreen" />
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/menuScreen"
+        android:name="com.staffrakho.fragment.commonScreen.MenuFragment"
+        android:label="MenuScreen"
+        tools:layout="@layout/fragment_menu">
+        <action
+            android:id="@+id/openHomeScreen"
+            app:destination="@id/HomeScreen" />
+
+        <action
+            android:id="@+id/openMenuScreen"
+            app:destination="@id/menuScreen" />
+
+        <action
+            android:id="@+id/openCMSScreen"
+            app:destination="@id/CMSScreen" />
+
+        <action
+            android:id="@+id/openProfileScreen"
+            app:destination="@id/profileScreen" />
+
+        <action
+            android:id="@+id/openAccountSettingFragment"
+            app:destination="@id/accountSettingFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/accountSettingFragment"
+        android:name="com.staffrakho.fragment.commonScreen.AccountSettingFragment"
+        android:label="Account Setting Fragment"
+        tools:layout="@layout/fragment_account_setting">
+        <action
+            android:id="@+id/openMenuScreen"
+            app:destination="@id/menuScreen" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/jobDetailsScreen"
+        android:name="com.staffrakho.fragment.jobScreen.JobDetailsFragment"
+        android:label="Job Details Screen"
+        tools:layout="@layout/fragment_job_details">
+
+        <action
+            android:id="@+id/openHomeScreen"
+            app:destination="@id/HomeScreen" />
+
+        <action
+            android:id="@+id/openAppliedJobScreen"
+            app:destination="@id/appliedJobScreen" />
+
+        <action
+            android:id="@+id/openSearchJobScreen"
+            app:destination="@id/searchJobScreen" />
+
+        <action
+            android:id="@+id/openCompanyDetailFragment"
+            app:destination="@id/companyDetailFragment" />
+
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/searchJobScreen"
+        android:name="com.staffrakho.fragment.jobScreen.SearchJobFragment"
+        android:label="Search Job Screen"
+        tools:layout="@layout/fragment_search_job">
+
+        <action
+            android:id="@+id/openHomeScreen"
+            app:destination="@id/HomeScreen" />
+
+        <action
+            android:id="@+id/openSearchJobScreen"
+            app:destination="@id/searchJobScreen" />
+
+        <action
+            android:id="@+id/openJobDetailsScreen"
+            app:destination="@id/jobDetailsScreen" />
+
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/recentJobsFragment"
+        android:name="com.staffrakho.fragment.jobScreen.RecentVisitedJobsFragment"
+        android:label="Recent Jobs Fragment"
+        tools:layout="@layout/fragment_recent_visted_jobs">
+
+        <action
+            android:id="@+id/openHomeScreen"
+            app:destination="@id/HomeScreen" />
+
+        <action
+            android:id="@+id/openSearchJobScreen"
+            app:destination="@id/searchJobScreen" />
+
+        <action
+            android:id="@+id/openJobDetailsScreen"
+            app:destination="@id/jobDetailsScreen" />
+
+
+        <action
+            android:id="@+id/openRecentJobsFragment"
+            app:destination="@id/recentJobsFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/newJobsFragment"
+        android:name="com.staffrakho.fragment.jobScreen.NewJobsFragment"
+        android:label="New Jobs Fragment"
+        tools:layout="@layout/fragment_new_jobs">
+
+        <action
+            android:id="@+id/openHomeScreen"
+            app:destination="@id/HomeScreen" />
+
+        <action
+            android:id="@+id/openSearchJobScreen"
+            app:destination="@id/searchJobScreen" />
+
+        <action
+            android:id="@+id/openJobDetailsScreen"
+            app:destination="@id/jobDetailsScreen" />
+
+
+        <action
+            android:id="@+id/openNewJobsFragment"
+            app:destination="@id/newJobsFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/favouriteFragment"
+        android:name="com.staffrakho.fragment.jobScreen.FavouriteFragment"
+        android:label="Favourite  Fragment"
+        tools:layout="@layout/fragment_favourite">
+
+        <action
+            android:id="@+id/openHomeScreen"
+            app:destination="@id/HomeScreen" />
+
+        <action
+            android:id="@+id/openSearchJobScreen"
+            app:destination="@id/searchJobScreen" />
+
+        <action
+            android:id="@+id/openJobDetailsScreen"
+            app:destination="@id/jobDetailsScreen" />
+
+
+        <action
+            android:id="@+id/openFavouriteFragment"
+            app:destination="@id/favouriteFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/companyDetailFragment"
+        android:name="com.staffrakho.fragment.jobScreen.CompanyDetailFragment"
+        android:label="Company Detail Fragment"
+        tools:layout="@layout/fragment_company_detail">
+
+
+        <action
+            android:id="@+id/openJobDetailsScreen"
+            app:destination="@id/jobDetailsScreen" />
+
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/profileScreen"
+        android:name="com.staffrakho.fragment.jobScreen.ProfileJobSeekerFragment"
+        android:label="Profile  Screen"
+        tools:layout="@layout/fragment_profile">
+        <action
+            android:id="@+id/openMenuScreen"
+            app:destination="@id/menuScreen" />
+        <action
+            android:id="@+id/openProfileScreen"
+            app:destination="@id/profileScreen" />
+        <action
+            android:id="@+id/openPDFScreen"
+            app:destination="@id/PDFScreen" />
+
+        <action
+            android:id="@+id/openHomeScreen"
+            app:destination="@id/HomeScreen" />
+
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/CMSScreen"
+        android:name="com.staffrakho.fragment.commonScreen.CMSFragment"
+        android:label="CMS Screen"
+        tools:layout="@layout/fragment_cms">
+        <action
+            android:id="@+id/openMenuScreen"
+            app:destination="@id/menuScreen" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/PDFScreen"
+        android:name="com.staffrakho.fragment.commonScreen.PdfViewerFragment"
+        android:label="PDF Screen"
+        tools:layout="@layout/fragment_pdf_viewer">
+
+        <action
+            android:id="@+id/openProfileScreen"
+            app:destination="@id/profileScreen" />
+
+    </fragment>
+
+
+</navigation>
